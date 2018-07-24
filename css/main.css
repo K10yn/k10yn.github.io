@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+body {
+  background-color: #a4d5f2;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #555
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scroling: touch;
+
+
+}
+
+hr {
+  height: 1px;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-color: white;
+  margin-top: 60px;
+}
+
+a {
+  color: white;
+}
+
+li {
+  color: #000000;
+}
+
+.bel {
+  color: white;
+  text-align: center;
+}
+
+.visot {
+  height: 100px;
+}
+
+.visot1 {
+  height: 50px;
+}
+
+.lw {
+  font-size: 30px;
+  background-color: #234567;
+  color: white;
+}
+
+.lt {
+  text-align: right;
+  font-size: 18px;
+  background-color: #234567;
+  color: white;
+}
+
+.container-1 {
+  margin-top: -70px;
+  padding-top: 0px;
+}
+
+.container-2 {
+  margin-top: 15px;
+  padding-top: 0px;
+}
+
+.foto {
+  width: 300px;
+  height: 150px;
+  background-color: red;
+}
+
+.menu {
+  background-color: #234567;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.line {
+  -webkit-box-shadow: 0px 6px 20px #000000;
+
+  -moz-box-shadow: 0px 6px 20px #000000;
+
+  box-shadow: 0px 6px 20px #000000;
+}
+
+h3, h4, h5 {
+  text-align: center;
+}
+
+.niz {
+  background-color: #234567;
+  height: 400px;
+}
