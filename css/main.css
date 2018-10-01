@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+
+body {
+  /*background-image: url(../img/qwe.jpg);*/
+  background-color: gray;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scroling: touch;
+
+
+}
+
+.left {
+border: 1px solid #000000;
+
+background-color: #DDDDDD;
+
+padding: 10px;
+
+font-family: Verdana, Geneva, sans-serif;
+
+font-size: 12pt;
+
+color: #888888;
+
+text-align: center;
+height: 200px;
+width: 100%;
+}
+
+.razmer {
+  width: 900px;
+  height: 200px;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.otsup {
+  width: 100%;
+  height: 50px;
+}
