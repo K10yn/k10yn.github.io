@@ -1,51 +1,124 @@
-@import url('https://fonts.googleapis.com/css?family=Exo+2');
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
 
 body {
-  /*background-image: url(../img/qwe.jpg);*/
-  background-color: white;
-  font-family: 'Exo 2', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  color: #555;
-  padding-left: 20px;
-  padding-right: 20px;
-
-  -webkit-font-smoothing: antialiased;
-  -webkit-overflow-scroling: touch;
-
-
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
 }
 
-.left {
-border: 1px solid #000000;
-
-background-color: #DDDDDD;
-
-padding: 10px;
-
-font-family: Verdana, Geneva, sans-serif;
-
-font-size: 12pt;
-
-color: #888888;
-
-text-align: center;
-height: 200px;
-width: 100%;
+li.list-group-item:hover {
+  background: #1022e8;
+  color: white;
 }
 
-.razmer {
-  width: 900px;
-  height: 200px;
+.bor {
+  vertical-align: bottom;
 }
 
-.img {
-  display: block;
-  max-width: 100%;
+.al {
+  display: inline-block;
+max-width: 100%;
+height: auto;
+}
+
+.mg {
+    heights: 10px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  color: black;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  z-index: 10;
+}
+
+.wh {
+  color: white;
+}
+
+/* Declare heights because of positioning of img element
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}*/
+
+.carousel-item {
+  height: auto;
+  background-color: #777;
+}
+.carousel-item > img {
+  width: 100%;
   height: auto;
 }
 
-.otsup {
-  width: 100%;
-  height: 50px;
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.vo
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
 }
