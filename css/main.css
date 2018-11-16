@@ -13,9 +13,6 @@ li.list-group-item:hover {
   color: white;
 }
 
-li.list-group-item {
-  font-size: 0.8em;
-}
 
 .bor {
   vertical-align: bottom;
@@ -111,6 +108,17 @@ height: auto;
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+@media (max-width: 40em) {
+  .carousel-item > img {
+    width: 100%;
+    height: 200px;
+  }
+
+  li.list-group-item {
+    font-size: 0.8em;
+  }
+}
+
 
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
